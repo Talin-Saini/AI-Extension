@@ -1,0 +1,33 @@
+/* File: style.css */
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+textarea {
+  height: 100px;
+  resize: none;
+  padding: 8px;
+}
+button {
+  padding: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+pre {
+  white-space: pre-wrap;
+  background: #eee;
+  padding: 8px;
+  font-size: 14px;
+}
